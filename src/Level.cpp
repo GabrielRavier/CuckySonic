@@ -611,9 +611,7 @@ LEVEL::LEVEL(int id, const char *players[])
 {
 	LOG(("Loading level ID %d...\n", id));
 	
-	//Reset memory, then reinitialize linked lists
-	memset(this, 0, sizeof(LEVEL));
-	
+	//Reinitialize linked lists
 	objectList = std::deque<OBJECT*>(0);
 	coreObjectList = std::deque<OBJECT*>(0);
 	objTextureCache = std::deque<TEXTURE*>(0);
