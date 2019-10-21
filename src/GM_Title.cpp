@@ -1,7 +1,7 @@
 #include <math.h>
 
 #include "Game.h"
-#include "GameConstants.h"
+#include "CommonDefines.h"
 #include "Error.h"
 #include "Log.h"
 #include "Event.h"

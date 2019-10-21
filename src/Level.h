@@ -4,7 +4,7 @@
 
 #include "Render.h"
 #include "Audio.h"
-#include "GameConstants.h"
+#include "CommonDefines.h"
 #include "LevelSpecific.h"
 #include "Player.h"
 #include "Object.h"

@@ -8,7 +8,7 @@
 #include "Error.h"
 #include "Level.h"
 #include "Game.h"
-#include "GameConstants.h"
+#include "CommonDefines.h"
 
 #include "Object.h"
 #include "Objects.h"

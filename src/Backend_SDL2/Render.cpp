@@ -6,7 +6,7 @@
 #include "SDL_timer.h"
 
 #include "../Log.h"
-#include "../GameConstants.h"
+#include "../CommonDefines.h"
 #include "../Render.h"
 #include "../Error.h"
 #include "../Filesystem.h"

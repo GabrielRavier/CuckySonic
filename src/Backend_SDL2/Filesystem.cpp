@@ -2,7 +2,7 @@
 #include <string.h>
 
 #include "../Filesystem.h"
-#include "../GameConstants.h"
+#include "../CommonDefines.h"
 #include "../Log.h"
 #include "../Error.h"
 
