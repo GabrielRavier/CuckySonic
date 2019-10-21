@@ -844,8 +844,7 @@ void ObjInvincibilityStars(OBJECT *object)
 PLAYER::PLAYER(PLAYER **linkedList, const char *specPath, PLAYER *myFollow, int myController)
 {
 	LOG(("Creating a player with spec %s and controlled by controller %d...\n", specPath, myController));
-	memset(this, 0, sizeof(PLAYER));
-	
+
 	//Equivalent of routine 0
 	routine = PLAYERROUTINE_CONTROL;
 	
